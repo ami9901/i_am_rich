@@ -4,12 +4,16 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        //background color can also be added here
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title: Text('I am Rich'), //Adding app bar title
           backgroundColor: Colors.blueGrey[900],
         ),
-        backgroundColor: Colors.blueGrey,
+        body: Center(
+          child: Image(
+            image: NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
+          ),
+        ),
       ),
     ),
   );
