@@ -4,7 +4,9 @@ void main() {
   //Hello World
   runApp(
     MaterialApp(
-      home: Text('Hello World!'),
+      home: Center(
+        child: Text('Hello World!'),
+      ),
     ),
   );
 }
